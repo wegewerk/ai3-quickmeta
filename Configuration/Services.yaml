@@ -1,0 +1,22 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Wegewerk\Ai3Quickmeta\:
+    resource: '../Classes/*'
+    exclude: '../Classes/Domain/Model/*'
+
+  Wegewerk\Ai3Quickmeta\Domain\Capabilities\ArticlemetaCapability:
+    autowire: false
+    arguments:
+      $key: 'articlemeta'
+      $title: 'Quickmeta (Article Metadata)'
+      $endpoint: '@Wegewerk\Ai3Quickmeta\Api\ZakAiQuickmeta'
+    tags:
+      - name: ai3.capability
+
+  Wegewerk\Ai3Quickmeta\Api\ZakAiQuickmeta:
+    arguments:
+      $client: '@Wegewerk\Ai3Core\Api\ZakAiClient'

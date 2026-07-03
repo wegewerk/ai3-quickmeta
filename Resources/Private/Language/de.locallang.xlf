@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="de" original="" datatype="plaintext" date="2026-07-03T13:42:55+02:00">
+		<body>
+			<trans-unit id="tx_ai3.pageImprovement.summary.creatingObject">
+				<source></source>
+				<target>Inhaltsobjekt wird erstellt...</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.abstract">
+				<source>Abstract</source>
+				<target>Zusammenfassung (abstract)</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.button">
+				<source>Generate Metadata</source>
+				<target>Metadaten erzeugen</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.title.suggestion">
+				<source>AI suggestion</source>
+				<target>KI Vorschlag</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.title.pagedata">
+				<source>Page Data</source>
+				<target>Seitendaten</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.description">
+				<source>SEO description</source>
+				<target>Beschreibung für Suchmaschinen</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.elementLabel">
+				<source>Metadata Assistant</source>
+				<target>Metadaten Assistent</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.error">
+				<source>Error generating Metadata</source>
+				<target>Fehler beim erzeugen von Metadaten</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.error.nocontent">
+				<source>This Page has no Content. To use this assistant, create Content on the Page.</source>
+				<target>Diese Seite hat keinen Inhalt. Um den Assistenten zu nutzen, legen Sie bitte Inhalte auf der Seite an.</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.generating">
+				<source>Generating Metadata</source>
+				<target>Metadaten werden erzeugt...</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.nav_title">
+				<source>Alternative navigation title</source>
+				<target>Alternativer Navigationstitel</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.og_description">
+				<source>OpenGraph-Description</source>
+				<target>OpenGraph-Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.og_title">
+				<source>OpenGraph-Title</source>
+				<target>OpenGraph-Titel</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.page.tabLabel">
+				<source>Quickmeta</source>
+				<target>Quickmeta</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.pagetitle">
+				<source>Page Title</source>
+				<target>Seitentitel</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.seo_title">
+				<source>SEO Title</source>
+				<target>Titel für Suchmaschinen</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.transfer_all">
+				<source>Transfer all</source>
+				<target>Alle übernehmen</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.transfer_empty">
+				<source>Transfer empty</source>
+				<target>In leere Felder übernehmen</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.twitter_description">
+				<source>X / Twitter Description</source>
+				<target>X / Twitter Beschreibung</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.twitter_title">
+				<source>X / Twitter Title</source>
+				<target>X / Twitter Titel</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

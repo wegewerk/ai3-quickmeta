@@ -1,0 +1,26 @@
+{
+    "name": "wegewerk/ai3_quickmeta",
+    "type": "typo3-cms-extension",
+    "description": "Ai3 Quickmeta - Metadata Assistant for TYPO3 Pages",
+    "homepage": "https://www.wegewerk.com/",
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "keywords": [
+        "TYPO3 CMS"
+    ],
+    "require": {
+        "typo3/cms-core": "^13.4.0 | ^14.0",
+        "wegewerk/ai3_core": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wegewerk\\Ai3Quickmeta\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "ai3_quickmeta"
+        }
+    }
+}
