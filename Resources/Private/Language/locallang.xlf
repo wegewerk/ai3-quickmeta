@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" original="EXT:ai3/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="ai3" date="2026-07-03T13:42:55+02:00">
+	<file source-language="en" original="EXT:ai3/Resources/Private/Language/locallang_db.xlf" datatype="plaintext" product-name="ai3" date="2026-07-23T12:38:03+02:00">
 		<header></header>
 		<body>
 			<trans-unit id="tx_ai3.pageImprovement.summary.creatingObject">
@@ -9,17 +9,8 @@
 			<trans-unit id="tx_ai3.quickmeta.abstract">
 				<source>Abstract</source>
 			</trans-unit>
-			<trans-unit id="tx_ai3.quickmeta.abstract">
-				<source>Abstract</source>
-			</trans-unit>
 			<trans-unit id="tx_ai3.quickmeta.button">
 				<source>Generate Metadata</source>
-			</trans-unit>
-			<trans-unit id="tx_ai3.quickmeta.title.suggestion">
-				<source>AI suggestion</source>
-			</trans-unit>
-			<trans-unit id="tx_ai3.quickmeta.title.pagedata">
-				<source>Page Data</source>
 			</trans-unit>
 			<trans-unit id="tx_ai3.quickmeta.description">
 				<source>SEO description</source>
@@ -53,6 +44,12 @@
 			</trans-unit>
 			<trans-unit id="tx_ai3.quickmeta.seo_title">
 				<source>SEO Title</source>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.title.pagedata">
+				<source>Page Data</source>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.title.suggestion">
+				<source>AI suggestion</source>
 			</trans-unit>
 			<trans-unit id="tx_ai3.quickmeta.transfer_all">
 				<source>Transfer all</source>

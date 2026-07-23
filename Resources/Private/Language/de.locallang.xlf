@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" target-language="de" original="" datatype="plaintext" date="2026-07-03T13:42:55+02:00">
+	<file source-language="en" target-language="de" original="" datatype="plaintext" date="2026-07-23T12:38:03+02:00">
 		<body>
 			<trans-unit id="tx_ai3.pageImprovement.summary.creatingObject">
 				<source></source>
@@ -13,14 +13,6 @@
 			<trans-unit id="tx_ai3.quickmeta.button">
 				<source>Generate Metadata</source>
 				<target>Metadaten erzeugen</target>
-			</trans-unit>
-			<trans-unit id="tx_ai3.quickmeta.title.suggestion">
-				<source>AI suggestion</source>
-				<target>KI Vorschlag</target>
-			</trans-unit>
-			<trans-unit id="tx_ai3.quickmeta.title.pagedata">
-				<source>Page Data</source>
-				<target>Seitendaten</target>
 			</trans-unit>
 			<trans-unit id="tx_ai3.quickmeta.description">
 				<source>SEO description</source>
@@ -65,6 +57,14 @@
 			<trans-unit id="tx_ai3.quickmeta.seo_title">
 				<source>SEO Title</source>
 				<target>Titel für Suchmaschinen</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.title.pagedata">
+				<source>Page Data</source>
+				<target>Seitendaten</target>
+			</trans-unit>
+			<trans-unit id="tx_ai3.quickmeta.title.suggestion">
+				<source>AI suggestion</source>
+				<target>KI Vorschlag</target>
 			</trans-unit>
 			<trans-unit id="tx_ai3.quickmeta.transfer_all">
 				<source>Transfer all</source>
