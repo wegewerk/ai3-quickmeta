@@ -68,7 +68,7 @@ class ArticlemetaController extends AbstractAjaxController
             $suggestion = $this->articlemetaCapability->endpoint->generate(
                 '',
                 $content,
-                $parsedBody['language'] ?? 'de');
+                'de');
             if (is_string($suggestion)) {
                 $suggestion = json_decode($suggestion, true, 512, JSON_THROW_ON_ERROR);
             }
