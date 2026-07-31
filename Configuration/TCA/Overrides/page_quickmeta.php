@@ -13,7 +13,7 @@ $GLOBALS['TCA']['pages']['columns']['tx_ai3_quickmeta'] = [
     'exclude' => false,
     'label' => 'LLL:EXT:ai3/Resources/Private/Language/locallang.xlf:tx_ai3.quickmeta.elementLabel',
     'config' => [
-        'type' => 'user',
+        'type' => 'none',
         'renderType' => 'ai3QuickmetaElement',
     ],
 ];

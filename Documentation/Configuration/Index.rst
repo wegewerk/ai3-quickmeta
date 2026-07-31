@@ -31,15 +31,3 @@ These are consumed by `Wegewerk\Ai3Core\Api\ZakAiClient`.
 
 .. _configuration-ts-config:
 
---------
-TSconfig
---------
-
-By default, the Quickmeta assistant is added to the "Metadata" tab of all page types.
-You can use TSconfig to hide the field for specific page types or user groups
-if necessary.
-
-.. code-block:: typoscript
-   :caption: Hide Quickmeta assistant for specific page types
-
-   TCEFORM.pages.tx_ai3_quickmeta.disabled = 1
