@@ -6,7 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/)
 
 ## [Unreleased]
-
+## changed
+- show ZakAi credits next to action Button
 
 ## [0.9.22] - 2026-07-31
 

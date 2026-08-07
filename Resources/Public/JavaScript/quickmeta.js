@@ -2,6 +2,7 @@ import {lll} from "@typo3/core/lit-helper.js";
 import {html, render} from 'lit-html';
 import Ai3Api from './ai3api.js'
 import Notification from "@typo3/backend/notification.js";
+import "@wegewerk/ai3core/creditsElement.js";
 
 class QuickmetaApp {
     constructor(container) {
@@ -10,6 +11,7 @@ class QuickmetaApp {
         this.api = new Ai3Api();
         this.loading = false;
         this.saving = false;
+        this.creditCost = null;
         this.pageData = {};
         this.suggestion = {};
         this.suggestionsready = false;
@@ -80,6 +82,17 @@ class QuickmetaApp {
 
     init() {
         this.getPageData();
+        this.render();
+        this.fetchCreditCost();
+    }
+
+    async fetchCreditCost() {
+        try {
+            const costs = await this.api.creditCosts();
+            this.creditCost = costs?.articlemeta ?? null;
+        } catch {
+            this.creditCost = null;
+        }
         this.render();
     }
 
@@ -246,7 +259,10 @@ class QuickmetaApp {
                     >
                         <typo3-backend-icon identifier="ai3-quickmeta-icon" size="small"></typo3-backend-icon>
                         ${this.loading ? lll('tx_ai3.quickmeta.generating') : lll('tx_ai3.quickmeta.button')}
+                        ${this.creditCost !== null ? ` (${lll('tx_ai3.quickmeta.cost', this.creditCost)})` : ''}
                     </button>
+                    <ai3-credits></ai3-credits>
+
                     ${this.suggestionsready ? html`
                                 <button
                                         type="button"
