@@ -13,6 +13,7 @@ class Ai3QuickmetaElement extends AbstractFormElement
     {
         $result = $this->initializeResultArray();
         $result['javaScriptModules'][] = JavaScriptModuleInstruction::create('@wegewerk/Ai3Quickmeta/quickmeta.js');
+        $result['additionalInlineLanguageLabelFiles'][] = 'EXT:ai3_quickmeta/Resources/Private/Language/locallang.xlf';
 
         $html = [
             '<div data-ai3="ai3-quickmeta-container"',
