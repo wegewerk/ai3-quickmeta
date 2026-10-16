@@ -20,6 +20,6 @@ $GLOBALS['TCA']['pages']['columns']['tx_ai3_quickmeta'] = [
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes('pages',
     '--div--;LLL:EXT:ai3_quickmeta/Resources/Private/Language/locallang.xlf:tx_ai3.quickmeta.page.tabLabel,
-        tx_ai3_quickmeta,
-');
+        tx_ai3_quickmeta;
+','','after:--div--;core.form.tabs:socialmedia');
 

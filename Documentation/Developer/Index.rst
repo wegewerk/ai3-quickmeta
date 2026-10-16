@@ -17,17 +17,18 @@ ai3-quickmeta follows the capability pattern introduced by
 
 .. php:class:: Wegewerk\Ai3Quickmeta\Api\ZakAiQuickmeta
 
-   Implements the API endpoint for metadata generation.
+   Extends ``Wegewerk\Ai3Core\Api\AbstractZakAiEndpoint`` (implementing
+   ``ZakAiEndpointInterface``). Implements the API endpoint for metadata generation.
 
-   .. php:method:: generate(string $imagePath, string $description, string $language): array
+   .. php:method:: generate(array $options = []): string
 
       Sends a request to the Zak-AI service to generate metadata.
 
-      :param string $imagePath: Not used in this implementation (can be empty).
-      :param string $description: The content of the page to analyze.
-      :param string $language: The target language for the metadata (default: 'de').
-      :returntype: array
-      :returns: An array containing the generated metadata fields.
+      :param array $options: Associative array of options:
+         * ``text`` (string, required): The content of the page to analyze.
+         * ``language`` (string, optional): The target language for the metadata (default: 'de').
+      :returntype: string
+      :returns: JSON-encoded string containing the generated metadata fields.
 
 .. _developer-ajax-endpoints:
 

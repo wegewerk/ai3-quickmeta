@@ -65,10 +65,10 @@ class ArticlemetaController extends AbstractAjaxController
                 return $this->createJsonErrorResponse(new Response(), [ 'error' => 'No content found on page' ]);
             }
 
-            $suggestion = $this->articlemetaCapability->endpoint->generate(
-                '',
-                $content,
-                'de');
+            $suggestion = $this->articlemetaCapability->endpoint->generate([
+                'text'     => $content,
+                'language' => 'de',
+            ]);
             if (is_string($suggestion)) {
                 $suggestion = json_decode($suggestion, true, 512, JSON_THROW_ON_ERROR);
             }

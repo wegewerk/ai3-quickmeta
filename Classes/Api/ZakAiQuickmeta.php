@@ -2,27 +2,15 @@
 
 namespace Wegewerk\Ai3Quickmeta\Api;
 
-use Wegewerk\Ai3Core\Api\ZakAiClient;
-use Wegewerk\Ai3Core\Api\ZakAiEndpointInterface;
+use Wegewerk\Ai3Core\Api\AbstractZakAiEndpoint;
 
 /**
- * Implemets the API Endpoint related to a alt text generation
+ * Implements the API Endpoint related to article metadata generation
  */
-class ZakAiQuickmeta implements ZakAiEndpointInterface
+class ZakAiQuickmeta extends AbstractZakAiEndpoint
 {
-    public function __construct(private ZakAiClient $client) {}
-
-    public function generate(string $imagePath, string $description, string $language): string
-    {
-        $response = $this->client->postJson(
-            'articlemeta',
-            [
-                'text'     => $description,
-                'language' => $language ?? 'de',
-            ]
-        );
-        $generatedMetadata = $response['articlemeta'] ?? [];
-        return $generatedMetadata;
-    }
-
+    protected string $endpoint = 'articlemeta';
+    protected string $responseKey = 'articlemeta';
+    protected array $requiredOptions = ['text'];
+    protected array $optionalOptions = ['language'];
 }
