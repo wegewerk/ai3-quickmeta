@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/)
 
 ## [Unreleased]
+## fix
+- position of quickmeta tab in page properties
+- link ai3_core documentation in configuration section
 
 
 ## [0.9.30] - 2026-10-23

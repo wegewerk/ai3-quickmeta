@@ -14,6 +14,7 @@ Ai3 Core
 
 Ai3 Quickmeta relies on the configuration of **Ai3 Core**. Ensure that Ai3 Core
 is properly configured with a valid API key and secret for the Zak-AI service.
+See https://docs.typo3.org/p/wegewerk/ai3_core/main/en-us/Installation/Index.html
 
 .. _configuration-api-credentials:
 
