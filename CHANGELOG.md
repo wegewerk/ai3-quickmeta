@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/)
 ## [Unreleased]
 
 
+## [0.9.32] - 2026-11-26
+
+
 ## [0.9.31] - 2026-11-04
 ## fix
 - position of quickmeta tab in page properties
